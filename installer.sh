@@ -3,7 +3,7 @@
 # Setting download configurations
 SDK_URL="https://download.stereolabs.com/zedsdk/2.7/ubuntu18"
 run_file="/tmp/ZED_SDK_Ubuntu18.run"
-install_path="/usr/local/myzed"
+install_path="/usr/local/zed"
 
 # Download sdk file
 if [ ! -e $run_file ]; then
